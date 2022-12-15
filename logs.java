@@ -50,8 +50,7 @@ final class LogCalculator {
         final float logAmount = truckCapacity / (mapleWeight * logLength);
 
         // print out answer
-        System.out.println(
-                logAmount + " is the maximum amount of " + logLength + "m logs.");
+        System.out.println(logAmount + " Logs ca fit in the truck ");
         System.out.println("\nDone.");
     }
 }
